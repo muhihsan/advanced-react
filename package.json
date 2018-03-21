@@ -4,6 +4,7 @@
   "description": "Advanced React",
   "main": "lib/server.js",
   "scripts": {
+    "dev": "pm2 start lib/server.js --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
